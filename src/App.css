@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./assets/Fonts/CircularStd-Black.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./assets/Fonts/CircularStd-BlackItalic.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./assets/Fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./assets/Fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('./assets/Fonts/CircularStd-Book.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('./assets/Fonts/CircularStd-BookItalic.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./assets/Fonts/CircularStd-Medium.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./assets/Fonts/CircularStd-MediumItalic.woff2') format('woff2'),
+        url('./assets/Fonts/CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+body{
+    font-family: "Circular Std", sans-serif ;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .active{
+    color: white;
+  }
+.home__page {
+    padding: 0 15px;
+    padding-bottom: 22px;
+    background-image: linear-gradient(180.00deg, rgb(51, 51, 163) 5.086%, rgb(18, 18, 18) 20.397%);
+}
